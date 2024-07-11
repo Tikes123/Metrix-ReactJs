@@ -1,0 +1,50 @@
+.marketing-card {
+    border-radius: 8px;
+  }
+  
+  .select-time-period {
+    border: none;
+    background-color: transparent;
+    font-size: 0.875rem;
+    color: #6c757d;
+    outline: none;
+  }
+  
+  .chart-container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto 43px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .legend-color {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .legend-label {
+    color: #A6A8B1;
+    font-size: 11px;
+  }
+  
+  .legend-color.acquisition {
+    background-color: #A2D2FF;
+  }
+  
+  .legend-color.purchase {
+    background-color: #6B73FF;
+  }
+  
+  .legend-color.retention {
+    background-color: #FFD700;
+  }
+  

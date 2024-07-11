@@ -1,0 +1,42 @@
+  .header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #45464E;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  .chooseShop{
+    background-color: #FEF5EA !important;
+  }
+  .btn-avatar{
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .btn-avatar::after {
+    display: none !important;
+  }
+
+  .header-bottom{
+    height: 24px;
+    padding: 0 20px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #F1F3F9;
+  }
+
+  .crumbIcon{
+    width: 15px;
+    height: 15px;
+  }
+  

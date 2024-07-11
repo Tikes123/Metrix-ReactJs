@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import Header from './components/Header';
+import Dashboard from './components/Dashboard';
+import Orders from './components/Orders';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [activePage, setActivePage] = useState('Dashboard');
+
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <button className="hamburger" onClick={toggleSidebar}>
+          &#9776;
+        </button>
+        <Sidebar isOpen={isSidebarOpen} setActivePage={setActivePage} />
+        <div className={`home-section ${isSidebarOpen ? 'open' : ''}`}>
+          <Header activePage={activePage} />
+          <Routes>
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/orders" element={<Orders />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,121 @@
+.dashboard {
+  padding: 20px;
+  background-color: #f8f9fa;
+  flex: 1;
+}
+.card{
+  border-radius: 12px;
+  border: none;
+}
+
+.prodCard{
+  background-color: #5570F1;
+}
+select{
+  background: transparent;
+  border: none;
+  color: #BEC0CA;
+}
+.select-sales{
+  background-color: #5570F11F;
+  color: #5570F1;
+  width: 99px;
+  height: 30px;
+  padding: 3px 10px 5px 6px;
+  border-radius: 8px;
+}
+.icon-container1{
+  display: grid;
+  place-items: center;
+  background-color: #5570F11F;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+.icon-container2{
+  display: grid;
+  place-items: center;
+  background-color: #FFCC9129;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+.icon-container3{
+  display: grid;
+  place-items: center;
+  background-color: #FFFFFF29;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+.cardIcon{
+  width: 20px;
+  height: 20px;
+}
+.font-one{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+color: #45464E;
+}
+.text-muted{
+  color: #8B8D97;
+}
+.font-small{
+  font-size: 12px;
+  color: #DBDEEE;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-20{
+  font-size: 20px;
+}
+small{
+  font-size: 12px;
+}
+.card-heading{
+  font-family: Inter, Sans-Serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #45464E;
+}
+
+.order-summary{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #F1F3F9;
+}
+.prod-img{
+  width: 49px;
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid #F1F3F9;
+}
+.prod-name{
+  font-size: 14px;
+  font-weight: 400;
+  color: #45464E;
+}
+.prod-price{
+  font-size: 14px;
+  font-weight: 500;
+  color: #33343A;
+}
+.purchase-on{
+  font-size: 12px;
+  font-weight: 400;
+  color: #45464E;
+}
+.badge.bg-danger{
+  background-color: #F57E771F !important;
+  color: #CC5F5F;
+}
+.badge.bg-success{
+  background-color: #32936F1F !important;
+  color: #519C66;
+}
+.bar-container{
+width: 500px; height: 300px; margin-left: auto; margin-right: auto; overflow-x: auto;
+}

@@ -1,0 +1,82 @@
+
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+a{
+  text-decoration: none !important;
+}
+i{
+  font-size: 24px;
+  font-weight: 600;
+}
+.menu-item {
+  padding: 16px 20px 16px 20px;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #53545C;
+}
+
+.menu-item:hover {
+  background-color: #5570F1;
+  color: #FFFFFF;
+  border-radius: 12px;
+}
+.menu-item.active {
+  background-color: #5570F1;
+  color: #FFFFFF;
+  border-radius: 12px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.sidebar-footer {}
+
+.support-btn,
+.upgrade-btn,
+.logout-btn {
+  padding: 16px 20px 16px 20px;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.support-btn {
+  background-color: #5E63661A;
+  border-radius: 12px;
+}
+
+.upgrade-btn {
+  background-color: #FFCC9133;
+  border-radius: 12px;
+  display: grid;
+}
+
+.upgrade-text {
+  font-size: 12px;
+  color: #6E7079;
+}
+
+.logout-btn .text-danger {
+  color: #FF0000;
+}

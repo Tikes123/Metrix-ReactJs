@@ -4,10 +4,12 @@
   
   .select-time-period {
     border: none;
-    background-color: transparent;
+    background-color: #9c9c9c7d;
     font-size: 0.875rem;
-    color: #6c757d;
+    color: #d6d6d6;
+    border-radius: 20px;
     outline: none;
+    padding: 5px;
   }
   
   .chart-container {

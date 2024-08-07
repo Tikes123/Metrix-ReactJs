@@ -9,10 +9,12 @@
     align-items: center;
     height: 60px;
     padding: 10px 20px;
-    background-color: #FFFFFF;
+    background-color: #1f2029;
     color: #45464E;
   }
-  
+  .avatar-ico{
+    border-radius: 50%;
+  }
   .header-right {
     display: flex;
     align-items: center;

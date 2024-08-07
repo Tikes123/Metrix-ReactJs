@@ -6,8 +6,11 @@
 .card{
   border-radius: 12px;
   border: none;
+  background-color: #1f2029;
 }
-
+.card-one{
+  height: 150px;
+}
 .prodCard{
   background-color: #5570F1;
 }
@@ -27,7 +30,8 @@ select{
 .icon-container1{
   display: grid;
   place-items: center;
-  background-color: #5570F11F;
+  background-color: #0d6efd6b;
+  color: #0d6efd;
   width: 36px;
   height: 36px;
   border-radius: 8px;
@@ -35,7 +39,8 @@ select{
 .icon-container2{
   display: grid;
   place-items: center;
-  background-color: #FFCC9129;
+  background-color: #1987547a;
+    color: #198754;
   width: 36px;
   height: 36px;
   border-radius: 8px;
@@ -43,7 +48,17 @@ select{
 .icon-container3{
   display: grid;
   place-items: center;
-  background-color: #FFFFFF29;
+  background-color: #dc354578;
+    color: #dc3545;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+.icon-container4{
+  display: grid;
+  place-items: center;
+  background-color: #ffc10770;
+  color: #ffc107;
   width: 36px;
   height: 36px;
   border-radius: 8px;
@@ -84,8 +99,8 @@ small{
 .order-summary{
   display: flex;
   justify-content: space-between;
-  padding-bottom: 9px;
-  border-bottom: 1px solid #F1F3F9;
+  align-items: center;
+  padding-bottom: 15px;
 }
 .prod-img{
   width: 49px;
@@ -94,9 +109,11 @@ small{
   border: 1px solid #F1F3F9;
 }
 .prod-name{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  color: #45464E;
+  color: #ffffff;
+  font-weight: 500;
+
 }
 .prod-price{
   font-size: 14px;
@@ -117,5 +134,82 @@ small{
   color: #519C66;
 }
 .bar-container{
-width: 500px; height: 300px; margin-left: auto; margin-right: auto; overflow-x: auto;
+  width: 760px; height: 300px;overflow-x: auto;
+}
+.table {
+ --bs-table-bg: transparent !important;
+}
+
+.avatar i {
+  font-size: 60px;
+  color: #6c757d;
+}
+
+.username {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.stars i {
+  color: #ffc107;
+  margin: 0 2px;
+  font-size: 16px;
+}
+
+.message {
+  color: #a1a1a1;
+  font-size: 12px;
+}
+.dive-ico1{
+  background: #ff484875;
+    color: red;
+    display: grid;
+    place-items: center;
+    padding: 9px;
+    border-radius: 50%;
+    width: 48px;
+}
+.dive-ico2{
+  background: #0d6efd73;
+  color: #0d6efd;
+    display: grid;
+    place-items: center;
+    padding: 9px;
+    border-radius: 50%;
+    width: 48px;
+}
+.dive-ico3{
+  background: #1987547a;
+  color: #198754;
+    display: grid;
+    place-items: center;
+    padding: 9px;
+    border-radius: 50%;
+    width: 48px;
+}
+.dive-in{
+  background: #898989;
+    border-radius: 50%;
+    color: white;
+    height: 25px;
+    width: 25px;
+    display: grid;
+    place-items: center;
+}
+.dive-in i{
+  font-size: 15px;
+}
+.Feeback-box{
+  border-bottom: 1px solid #F1F3F9;
+  margin-bottom: 12px;
+}
+.header-ico{
+  background: #bcbcbc87;
+    border-radius: 50%;
+    color: #c6c6c6;
+    height: 30px;
+    width: 30px;
+    display: grid;
+    place-items: center;
 }
